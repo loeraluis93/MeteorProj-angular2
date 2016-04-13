@@ -1,0 +1,382 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'meteor',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular2-meteor-accounts-ui.',
+1 verbose cli   'meteor-accounts' ]
+2 info using npm@2.14.22
+3 info using node@v0.10.43
+4 verbose install initial load of /Users/luisfls11/Web_Proj/meteorProj/socially/package.json
+5 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/angular2/package.json
+6 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/angular2-meteor/package.json
+7 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/angular2-meteor-accounts-ui/package.json
+8 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/angular2-meteor-auto-bootstrap/package.json
+9 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/es6-shim/package.json
+10 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/meteor-node-stubs/package.json
+11 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/reflect-metadata/package.json
+12 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/rxjs/package.json
+13 verbose installManyTop reading scoped package data from /Users/luisfls11/Web_Proj/meteorProj/socially/node_modules/zone.js/package.json
+14 info package.json angular2-meteor-accounts-ui@0.3.5 No README data
+15 info package.json angular2-meteor-auto-bootstrap@0.5.1 No repository field.
+16 verbose readDependencies loading dependencies from /Users/luisfls11/Web_Proj/meteorProj/socially/package.json
+17 silly cache add args [ 'meteor', null ]
+18 verbose cache add spec meteor
+19 silly cache add args [ 'npm', null ]
+20 verbose cache add spec npm
+21 silly cache add args [ 'install', null ]
+22 verbose cache add spec install
+23 silly cache add args [ 'angular2-meteor-accounts-ui.', null ]
+24 verbose cache add spec angular2-meteor-accounts-ui.
+25 silly cache add args [ 'meteor-accounts', null ]
+26 verbose cache add spec meteor-accounts
+27 silly cache add parsed spec { raw: 'meteor',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'meteor',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: 'latest',
+27 silly cache add   type: 'tag' }
+28 silly addNamed meteor@latest
+29 verbose addNamed "latest" is being treated as a dist-tag for meteor
+30 info addNameTag [ 'meteor', 'latest' ]
+31 silly mapToRegistry name meteor
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/meteor
+35 verbose addNameTag registry:https://registry.npmjs.org/meteor not in flight; fetching
+36 silly cache add parsed spec { raw: 'npm',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'npm',
+36 silly cache add   rawSpec: '',
+36 silly cache add   spec: 'latest',
+36 silly cache add   type: 'tag' }
+37 silly addNamed npm@latest
+38 verbose addNamed "latest" is being treated as a dist-tag for npm
+39 info addNameTag [ 'npm', 'latest' ]
+40 silly mapToRegistry name npm
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/npm
+44 verbose addNameTag registry:https://registry.npmjs.org/npm not in flight; fetching
+45 silly cache add parsed spec { raw: 'install',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'install',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: 'latest',
+45 silly cache add   type: 'tag' }
+46 silly addNamed install@latest
+47 verbose addNamed "latest" is being treated as a dist-tag for install
+48 info addNameTag [ 'install', 'latest' ]
+49 silly mapToRegistry name install
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/install
+53 verbose addNameTag registry:https://registry.npmjs.org/install not in flight; fetching
+54 silly cache add parsed spec { raw: 'angular2-meteor-accounts-ui.',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'angular2-meteor-accounts-ui.',
+54 silly cache add   rawSpec: '',
+54 silly cache add   spec: 'latest',
+54 silly cache add   type: 'tag' }
+55 silly addNamed angular2-meteor-accounts-ui.@latest
+56 verbose addNamed "latest" is being treated as a dist-tag for angular2-meteor-accounts-ui.
+57 info addNameTag [ 'angular2-meteor-accounts-ui.', 'latest' ]
+58 silly mapToRegistry name angular2-meteor-accounts-ui.
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/angular2-meteor-accounts-ui.
+62 verbose addNameTag registry:https://registry.npmjs.org/angular2-meteor-accounts-ui. not in flight; fetching
+63 silly cache add parsed spec { raw: 'meteor-accounts',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'meteor-accounts',
+63 silly cache add   rawSpec: '',
+63 silly cache add   spec: 'latest',
+63 silly cache add   type: 'tag' }
+64 silly addNamed meteor-accounts@latest
+65 verbose addNamed "latest" is being treated as a dist-tag for meteor-accounts
+66 info addNameTag [ 'meteor-accounts', 'latest' ]
+67 silly mapToRegistry name meteor-accounts
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/meteor-accounts
+71 verbose addNameTag registry:https://registry.npmjs.org/meteor-accounts not in flight; fetching
+72 verbose request uri https://registry.npmjs.org/meteor
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 00:04:42
+75 verbose request id f48f9aff40a594ad
+76 http request GET https://registry.npmjs.org/meteor
+77 verbose request uri https://registry.npmjs.org/install
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 00:04:42
+80 http request GET https://registry.npmjs.org/install
+81 verbose request uri https://registry.npmjs.org/angular2-meteor-accounts-ui.
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 00:04:42
+84 http request GET https://registry.npmjs.org/angular2-meteor-accounts-ui.
+85 verbose request uri https://registry.npmjs.org/meteor-accounts
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 00:04:42
+88 http request GET https://registry.npmjs.org/meteor-accounts
+89 verbose request uri https://registry.npmjs.org/npm
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 00:04:42
+92 verbose etag "D8KLUKP9LQ7ASXNSQRHSDC4AR"
+93 http request GET https://registry.npmjs.org/npm
+94 http 404 https://registry.npmjs.org/angular2-meteor-accounts-ui.
+95 verbose headers { 'content-type': 'application/json',
+95 verbose headers   'cache-control': 'max-age=0',
+95 verbose headers   'content-length': '2',
+95 verbose headers   'accept-ranges': 'bytes',
+95 verbose headers   date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+95 verbose headers   via: '1.1 varnish',
+95 verbose headers   age: '0',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'x-served-by': 'cache-dfw1844-DFW',
+95 verbose headers   'x-cache': 'MISS',
+95 verbose headers   'x-cache-hits': '0',
+95 verbose headers   'x-timer': 'S1460523883.408239,VS0,VE49',
+95 verbose headers   vary: 'Accept-Encoding' }
+96 silly get cb [ 404,
+96 silly get   { 'content-type': 'application/json',
+96 silly get     'cache-control': 'max-age=0',
+96 silly get     'content-length': '2',
+96 silly get     'accept-ranges': 'bytes',
+96 silly get     date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     age: '0',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-dfw1844-DFW',
+96 silly get     'x-cache': 'MISS',
+96 silly get     'x-cache-hits': '0',
+96 silly get     'x-timer': 'S1460523883.408239,VS0,VE49',
+96 silly get     vary: 'Accept-Encoding' } ]
+97 http 200 https://registry.npmjs.org/meteor
+98 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+98 verbose headers   etag: '"AGHZVGJ3WO8220MBG1A4XJBDL"',
+98 verbose headers   'content-type': 'application/json',
+98 verbose headers   'cache-control': 'max-age=300',
+98 verbose headers   'content-length': '9924',
+98 verbose headers   'accept-ranges': 'bytes',
+98 verbose headers   date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+98 verbose headers   via: '1.1 varnish',
+98 verbose headers   age: '0',
+98 verbose headers   connection: 'keep-alive',
+98 verbose headers   'x-served-by': 'cache-dfw1825-DFW',
+98 verbose headers   'x-cache': 'MISS',
+98 verbose headers   'x-cache-hits': '0',
+98 verbose headers   'x-timer': 'S1460523883.408340,VS0,VE201',
+98 verbose headers   vary: 'Accept-Encoding' }
+99 silly get cb [ 200,
+99 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+99 silly get     etag: '"AGHZVGJ3WO8220MBG1A4XJBDL"',
+99 silly get     'content-type': 'application/json',
+99 silly get     'cache-control': 'max-age=300',
+99 silly get     'content-length': '9924',
+99 silly get     'accept-ranges': 'bytes',
+99 silly get     date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+99 silly get     via: '1.1 varnish',
+99 silly get     age: '0',
+99 silly get     connection: 'keep-alive',
+99 silly get     'x-served-by': 'cache-dfw1825-DFW',
+99 silly get     'x-cache': 'MISS',
+99 silly get     'x-cache-hits': '0',
+99 silly get     'x-timer': 'S1460523883.408340,VS0,VE201',
+99 silly get     vary: 'Accept-Encoding' } ]
+100 verbose get saving meteor to /Users/luisfls11/.npm/registry.npmjs.org/meteor/.cache.json
+101 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+102 silly addNameTag next cb for meteor with tag latest
+103 silly addNamed meteor@0.5.2-1
+104 verbose addNamed "0.5.2-1" is a plain semver version for meteor
+105 silly mapToRegistry name meteor
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/meteor
+109 verbose addRemoteTarball https://registry.npmjs.org/meteor/-/meteor-0.5.2-1.tgz not in flight; adding
+110 verbose addRemoteTarball [ 'https://registry.npmjs.org/meteor/-/meteor-0.5.2-1.tgz',
+110 verbose addRemoteTarball   '33a11b39939a0b02296de9361904c18dd416a2dc' ]
+111 info retry fetch attempt 1 at 00:04:44
+112 info attempt registry request try #1 at 00:04:44
+113 http fetch GET https://registry.npmjs.org/meteor/-/meteor-0.5.2-1.tgz
+114 http 404 https://registry.npmjs.org/meteor-accounts
+115 verbose headers { 'content-type': 'application/json',
+115 verbose headers   'cache-control': 'max-age=0',
+115 verbose headers   'content-length': '2',
+115 verbose headers   'accept-ranges': 'bytes',
+115 verbose headers   date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+115 verbose headers   via: '1.1 varnish',
+115 verbose headers   age: '0',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'x-served-by': 'cache-dfw1829-DFW',
+115 verbose headers   'x-cache': 'MISS',
+115 verbose headers   'x-cache-hits': '0',
+115 verbose headers   'x-timer': 'S1460523883.405177,VS0,VE275',
+115 verbose headers   vary: 'Accept-Encoding' }
+116 silly get cb [ 404,
+116 silly get   { 'content-type': 'application/json',
+116 silly get     'cache-control': 'max-age=0',
+116 silly get     'content-length': '2',
+116 silly get     'accept-ranges': 'bytes',
+116 silly get     date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     age: '0',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-dfw1829-DFW',
+116 silly get     'x-cache': 'MISS',
+116 silly get     'x-cache-hits': '0',
+116 silly get     'x-timer': 'S1460523883.405177,VS0,VE275',
+116 silly get     vary: 'Accept-Encoding' } ]
+117 http 200 https://registry.npmjs.org/install
+118 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 verbose headers   etag: '"BKO69XMUTO1DJ2FA7RJU9DPFF"',
+118 verbose headers   'content-type': 'application/json',
+118 verbose headers   'content-encoding': 'gzip',
+118 verbose headers   'cache-control': 'max-age=300',
+118 verbose headers   'content-length': '5711',
+118 verbose headers   'accept-ranges': 'bytes',
+118 verbose headers   date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+118 verbose headers   via: '1.1 varnish',
+118 verbose headers   age: '0',
+118 verbose headers   connection: 'keep-alive',
+118 verbose headers   'x-served-by': 'cache-dfw1836-DFW',
+118 verbose headers   'x-cache': 'HIT',
+118 verbose headers   'x-cache-hits': '1',
+118 verbose headers   'x-timer': 'S1460523883.408864,VS0,VE258',
+118 verbose headers   vary: 'Accept-Encoding' }
+119 silly get cb [ 200,
+119 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 silly get     etag: '"BKO69XMUTO1DJ2FA7RJU9DPFF"',
+119 silly get     'content-type': 'application/json',
+119 silly get     'content-encoding': 'gzip',
+119 silly get     'cache-control': 'max-age=300',
+119 silly get     'content-length': '5711',
+119 silly get     'accept-ranges': 'bytes',
+119 silly get     date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+119 silly get     via: '1.1 varnish',
+119 silly get     age: '0',
+119 silly get     connection: 'keep-alive',
+119 silly get     'x-served-by': 'cache-dfw1836-DFW',
+119 silly get     'x-cache': 'HIT',
+119 silly get     'x-cache-hits': '1',
+119 silly get     'x-timer': 'S1460523883.408864,VS0,VE258',
+119 silly get     vary: 'Accept-Encoding' } ]
+120 verbose get saving install to /Users/luisfls11/.npm/registry.npmjs.org/install/.cache.json
+121 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+122 silly addNameTag next cb for install with tag latest
+123 silly addNamed install@0.6.1
+124 verbose addNamed "0.6.1" is a plain semver version for install
+125 silly mapToRegistry name install
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/install
+129 verbose addRemoteTarball https://registry.npmjs.org/install/-/install-0.6.1.tgz not in flight; adding
+130 verbose addRemoteTarball [ 'https://registry.npmjs.org/install/-/install-0.6.1.tgz',
+130 verbose addRemoteTarball   '654725a57c0548221819e4a8f64f60f544167730' ]
+131 info retry fetch attempt 1 at 00:04:44
+132 info attempt registry request try #1 at 00:04:44
+133 http fetch GET https://registry.npmjs.org/install/-/install-0.6.1.tgz
+134 http fetch 200 https://registry.npmjs.org/install/-/install-0.6.1.tgz
+135 http fetch 200 https://registry.npmjs.org/meteor/-/meteor-0.5.2-1.tgz
+136 silly fetchAndShaCheck shasum 654725a57c0548221819e4a8f64f60f544167730
+137 verbose addTmpTarball /var/folders/h2/9_f056095jv3pcxbrvj4x6fr0000gn/T/npm-2200-ca84c0fd/registry.npmjs.org/install/-/install-0.6.1.tgz not in flight; adding
+138 verbose addTmpTarball already have metadata; skipping unpack for install@0.6.1
+139 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+140 silly fetchAndShaCheck shasum 33a11b39939a0b02296de9361904c18dd416a2dc
+141 verbose addTmpTarball /var/folders/h2/9_f056095jv3pcxbrvj4x6fr0000gn/T/npm-2200-ca84c0fd/registry.npmjs.org/meteor/-/meteor-0.5.2-1.tgz not in flight; adding
+142 verbose addTmpTarball already have metadata; skipping unpack for meteor@0.5.2-1
+143 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+144 silly cache afterAdd install@0.6.1
+145 verbose afterAdd /Users/luisfls11/.npm/install/0.6.1/package/package.json not in flight; writing
+146 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+147 silly cache afterAdd meteor@0.5.2-1
+148 verbose afterAdd /Users/luisfls11/.npm/meteor/0.5.2-1/package/package.json not in flight; writing
+149 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+150 verbose afterAdd /Users/luisfls11/.npm/install/0.6.1/package/package.json written
+151 verbose afterAdd /Users/luisfls11/.npm/meteor/0.5.2-1/package/package.json written
+152 http 200 https://registry.npmjs.org/npm
+153 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+153 verbose headers   etag: '"5HYMHG0H0MSKO7KPWPU4VFCJ7"',
+153 verbose headers   'content-type': 'application/json',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   'content-length': '4796813',
+153 verbose headers   'accept-ranges': 'bytes',
+153 verbose headers   date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   age: '229',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '1',
+153 verbose headers   'x-timer': 'S1460523883.408923,VS0,VE5',
+153 verbose headers   vary: 'Accept-Encoding' }
+154 silly get cb [ 200,
+154 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly get     etag: '"5HYMHG0H0MSKO7KPWPU4VFCJ7"',
+154 silly get     'content-type': 'application/json',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     'content-length': '4796813',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Wed, 13 Apr 2016 05:04:43 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '229',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-dfw1821-DFW',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1460523883.408923,VS0,VE5',
+154 silly get     vary: 'Accept-Encoding' } ]
+155 verbose get saving npm to /Users/luisfls11/.npm/registry.npmjs.org/npm/.cache.json
+156 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+157 silly addNameTag next cb for npm with tag latest
+158 silly addNamed npm@3.8.6
+159 verbose addNamed "3.8.6" is a plain semver version for npm
+160 silly mapToRegistry name npm
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/npm
+164 verbose addRemoteTarball https://registry.npmjs.org/npm/-/npm-3.8.6.tgz not in flight; adding
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-3.8.6.tgz',
+165 verbose addRemoteTarball   'f9cb7b736e72c3b854895f6c054f830931ab14c6' ]
+166 info retry fetch attempt 1 at 00:04:47
+167 info attempt registry request try #1 at 00:04:47
+168 http fetch GET https://registry.npmjs.org/npm/-/npm-3.8.6.tgz
+169 http fetch 200 https://registry.npmjs.org/npm/-/npm-3.8.6.tgz
+170 silly fetchAndShaCheck shasum f9cb7b736e72c3b854895f6c054f830931ab14c6
+171 verbose addTmpTarball /var/folders/h2/9_f056095jv3pcxbrvj4x6fr0000gn/T/npm-2200-ca84c0fd/registry.npmjs.org/npm/-/npm-3.8.6.tgz not in flight; adding
+172 verbose addTmpTarball already have metadata; skipping unpack for npm@3.8.6
+173 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+174 silly cache afterAdd npm@3.8.6
+175 verbose afterAdd /Users/luisfls11/.npm/npm/3.8.6/package/package.json not in flight; writing
+176 verbose correctMkdir /Users/luisfls11/.npm correctMkdir not in flight; initializing
+177 verbose afterAdd /Users/luisfls11/.npm/npm/3.8.6/package/package.json written
+178 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/angular2-meteor-accounts-ui.
+178 verbose stack     at makeError (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+178 verbose stack     at CachingRegistryClient.<anonymous> (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+178 verbose stack     at Request._callback (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+178 verbose stack     at Request.self.callback (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:199:22)
+178 verbose stack     at Request.emit (events.js:98:17)
+178 verbose stack     at Request.<anonymous> (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+178 verbose stack     at Request.emit (events.js:117:20)
+178 verbose stack     at IncomingMessage.<anonymous> (/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:963:12)
+178 verbose stack     at IncomingMessage.emit (events.js:117:20)
+178 verbose stack     at _stream_readable.js:944:16
+179 verbose statusCode 404
+180 verbose pkgid angular2-meteor-accounts-ui.
+181 verbose cwd /Users/luisfls11/Web_Proj/meteorProj/socially
+182 error Darwin 15.0.0
+183 error argv "node" "/Users/luisfls11/.meteor/packages/meteor-tool/.1.3.1.nwdv3u++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "install" "--save" "meteor" "npm" "install" "--save" "angular2-meteor-accounts-ui." "meteor-accounts"
+184 error node v0.10.43
+185 error npm  v2.14.22
+186 error code E404
+187 error 404 Registry returned 404 for GET on https://registry.npmjs.org/angular2-meteor-accounts-ui.
+187 error 404
+187 error 404 'angular2-meteor-accounts-ui.' is not in the npm registry.
+187 error 404 You should bug the author to publish it (or use the name yourself!)
+187 error 404 It was specified as a dependency of 'meteor-angular2.0-socially'
+187 error 404
+187 error 404 Note that you can also install from a
+187 error 404 tarball, folder, http url, or git url.
+188 verbose exit [ 1, true ]
